@@ -1,0 +1,4 @@
+Run this command in a terminal:
+-N (No-buffer mode) ensures cURL shows data as it arrives, not all at once.
+---------------------------------------------------------------------------
+curl -N http://localhost:8080/postman

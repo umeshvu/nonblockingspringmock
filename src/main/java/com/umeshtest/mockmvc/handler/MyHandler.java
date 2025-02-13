@@ -20,4 +20,7 @@ public class MyHandler {
         return ServerResponse.ok().body(myServiceNonBlocking.getMessage(), String.class);
     }
 
+    public Mono<ServerResponse> testPostman(ServerRequest serverRequest) {
+        return ServerResponse.ok().body(myServiceNonBlocking.testPostman(), Integer.class);
+    }
 }
