@@ -1,3 +1,2 @@
 com/umeshtest/mockmvc/MockMvcApplicationTests.class
-com/umeshtest/mockmvc/config/MyHandlerTest.class
 com/umeshtest/mockmvc/service/MyServiceNonBlockingImplTest.class
